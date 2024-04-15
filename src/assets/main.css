@@ -6,3 +6,7 @@ html,
 body {
   background-color: #f1f1f1;
 }
+
+.router-link-exact-active {
+  @apply underline font-semibold transition-all;
+}
