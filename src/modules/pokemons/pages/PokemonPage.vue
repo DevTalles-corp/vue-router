@@ -16,6 +16,7 @@
       class="bg-blue-500 text-white p-2 rounded mt-5 text-center hover:bg-blue-700"
       :to="{ name: 'pokemon', params: { id: id + 1 } }"
     >
+      <!-- :to="`/pokemon/${id + 1}`" -->
       Siguiente
     </RouterLink>
   </section>
